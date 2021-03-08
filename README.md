@@ -33,4 +33,4 @@ THEN I am taken to the corresponding section of the README
 ## Tutorial
 _______________________________________
 
-![alt text](https://drive.google.com/file/d/1pR4-MMxYLV72ZqxZ6Y3f_pdR50GpjAuB/view)
+[Here is a tutorial!](https://drive.google.com/file/d/1pR4-MMxYLV72ZqxZ6Y3f_pdR50GpjAuB/view)
