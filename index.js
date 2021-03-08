@@ -54,7 +54,9 @@ inquirer
     type: 'list',
     message: questions[6],
     name: 'license',
-    choices: ['MIT', 'GPL v3', 'Apache']
+    choices: [
+        'MIT', 'GPL v3', 'Apache'
+    ]
     },
     {
     type: 'input',
@@ -68,9 +70,8 @@ inquirer
     }
 ])
 .then((data) => {
-    fs.writeFile('README.md', generateMarkdown(data),
-                (err) => err ? console.error(err) : console.log('Your readme is generated!')
-            )
+fs.writeFile('README.md', generateMarkdown(data),
+(err) => err ? console.error(err) : console.log('Your readme is generated!'))
 })
 }
 
